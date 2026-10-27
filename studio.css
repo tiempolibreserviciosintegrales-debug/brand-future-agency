@@ -30,3 +30,6 @@ body{background:#080808;color:#f5f5f5}header{background:#080808f5;border-color:#
 
 /* Match the existing dark identity with readable body text. */
 .growth-grid p,.deliverable-grid dd,.deliverable-grid ol,.deliverable-grid p{color:#bdbdbd}.growth-grid span{color:#aaa}.deliverable-grid dt{color:#eee}
+
+/* Four distinct service categories on the home page. */
+.services-four{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:700px){.services-four{grid-template-columns:1fr}}

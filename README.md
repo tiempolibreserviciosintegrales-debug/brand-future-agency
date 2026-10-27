@@ -11,3 +11,7 @@ Promociones incluye únicamente una invitación a consultar, sin precios ni ofer
 Validación local: cinco páginas con un H1, canonical y descripción; JSON-LD válido; rutas, anclas e imágenes locales existentes; revisión visual en escritorio y móvil a 390 px; menú móvil funcional. No se ha probado una entrega real del formulario ni la recepción de correos; se preserva el proveedor publicado y no se enviaron consultas de prueba a terceros.
 
 Despliegue: revisar el PR antes de fusionar. Respaldar la versión de HostGator, confirmar que no haya cambios posteriores, cargar los archivos revisados en el alojamiento efectivo y verificar las cinco rutas, HTTPS, imágenes, contacto y sitemap. No retirar URLs ya enviadas a Google ni solicitar cambios de propiedad en Search Console. Si algo falla, restaurar el respaldo. Este PR no constituye una publicación en el dominio.
+
+## Relaciones Públicas
+
+Se añade como cuarto servicio independiente en la portada, una opción propia en el formulario y la nueva ruta `/relaciones-publicas/` con título, descripción, canonical, Service y BreadcrumbList propios. Sitemap ampliado de cinco a seis rutas, sin eliminar las anteriores. No se garantiza cobertura editorial ni resultados comerciales. Se mantienen intactos los títulos y el contenido de las cuatro páginas de servicios existentes. Publicación en HostGator pendiente, junto con el resto de la propuesta.
